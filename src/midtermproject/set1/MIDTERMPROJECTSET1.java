@@ -285,9 +285,9 @@ public class MIDTERMPROJECTSET1 {
             System.out.println("To make tertiary color, you need to mix two compatible colors from primary and secondary\ncolors. Primary colors are Red, Yellow, and Blue and Secondary colors are Green, Orange\nand Purple");
             System.out.println("---------------------------------------------------------------------------------------");
             System.out.println("The program is case sensitive. Example: If your choosen color is Yellow, type 'Yellow': ");
-            System.out.print("Enter primary color: ");
+            System.out.print("Enter primary/secondary color: ");
             firstcolor = myScan.next();
-            System.out.print("Enter secondary color: ");
+            System.out.print("Enter primary/secondary color: ");
             secondcolor = myScan.next();
             
            if (firstcolor.equals("Red") && secondcolor.equals("Orange") || firstcolor.equals("Orange") && secondcolor.equals("Red")) {
@@ -471,13 +471,6 @@ public class MIDTERMPROJECTSET1 {
             }
 
            } else if (firstcolor.equals("Red") && secondcolor.equals("Green") || firstcolor.equals("Green") && secondcolor.equals("Red")) {
-            System.out.println("---------------------------------------------------------------------------------------");
-            System.out.println("     The primary and secondary colors are not compatible in the RYB Color Wheel. "); 
-            System.out.println("---------------------------------------------------------------------------------------");
-            System.out.println("Enter two different primary colors to form a new color. Try again!");
-            main(args);
-
-           } else if (firstcolor.equals("Yellow") && secondcolor.equals("Purple") || firstcolor.equals("Purple") && secondcolor.equals("Yellow")) {
             System.out.println("---------------------------------------------------------------------------------------");
             System.out.println("     The primary and secondary colors are not compatible in the RYB Color Wheel. "); 
             System.out.println("---------------------------------------------------------------------------------------");
